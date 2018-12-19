@@ -60,7 +60,7 @@ const ReCAPTCHA = React.createClass({
   },
 
   explicitRender (cb) {
-    if (this.props.grecaptcha && this.state.widgetId === undefined) {
+    if (this.props.grecaptcha && this.props.grecaptcha.render && this.state.widgetId === undefined) {
       const id = this.props.grecaptcha.render(this.refs.captcha, {
         sitekey: this.props.sitekey,
         callback: this.props.onChange,
