@@ -1,6 +1,6 @@
 {
   "name": "react-google-recaptcha-newrow",
-  "version": "0.8.1-newrow-V1",
+  "version": "0.8.1-newrow-V1.0",
   "description": "React Component Wrapper for Google reCAPTCHA forked by _newrow",
   "main": "lib/recaptcha-wrapper.js",
   "directories": {

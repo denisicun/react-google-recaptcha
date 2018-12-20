@@ -1,16 +1,17 @@
-# react-google-recaptcha
+# react-google-recaptcha-newrow
 
-[![Build Status][travis.img]][travis.url]
-[![npm version][npm.img]][npm.url]
-[![Dependencies][deps.img]][deps.url]
-[![Dev Dependencies][devdeps.img]][devdeps.url]
+Component wrapper for [Google reCAPTCHA v2][reCAPTCHA] **reverted to version 0.8.1.**
 
-Component wrapper for [Google reCAPTCHA v2][reCAPTCHA]
+**DON'T USE THIS UNLESS YOU MUST USE VERSION 0.8.1 OF THE ORIGINAL PACKAGE AND YOUR HAVING THIS BUG:**
+
+https://github.com/dozoisch/react-google-recaptcha/issues/76
+
+**THIS DOCUMENTATION IS THE ORIGINAL v0.8.1 VERSION DOCUMENTATION, SO IF YOU DO DESIDE FOR SOME STRANGE REASON TO USE THIS, FOLLOW IT**
 
 ## Installation
 
 ```shell
-npm install --save react-google-recaptcha react-async-script
+npm install --save react-google-recaptcha-newrow react-async-script
 ```
 
 ### React 0.13
@@ -134,15 +135,6 @@ render(
   document.body
 );
 ```
-
-[travis.img]: https://travis-ci.org/dozoisch/react-google-recaptcha.svg?branch=master
-[travis.url]: https://travis-ci.org/dozoisch/react-google-recaptcha
-[npm.img]: https://badge.fury.io/js/react-google-recaptcha.svg
-[npm.url]: http://badge.fury.io/js/react-google-recaptcha
-[deps.img]: https://david-dm.org/dozoisch/react-google-recaptcha.svg
-[deps.url]: https://david-dm.org/dozoisch/react-google-recaptcha
-[devdeps.img]: https://david-dm.org/dozoisch/react-google-recaptcha/dev-status.svg
-[devdeps.url]: https://david-dm.org/dozoisch/react-google-recaptcha#info=devDependencies
 
 [reCAPTCHA]: https://www.google.com/recaptcha
 [signup]: http://www.google.com/recaptcha/admin
