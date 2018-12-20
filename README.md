@@ -6,7 +6,9 @@ Component wrapper for [Google reCAPTCHA v2][reCAPTCHA] **reverted to version 0.8
 
 https://github.com/dozoisch/react-google-recaptcha/issues/76
 
-**THIS DOCUMENTATION IS THE ORIGINAL v0.8.1 VERSION DOCUMENTATION, SO IF YOU DO DESIDE FOR SOME STRANGE REASON TO USE THIS, FOLLOW IT**
+**Also we've added support to load recaptcha from recaptcha.net, we've added the needed documentation in the advanced usage.**
+
+**THIS DOCUMENTATION IS THE ORIGINAL v0.8.1 VERSION DOCUMENTATION WITH OUR CHANGE TO SUPPORT 'recaptcha.net', SO IF YOU DO DECIDE FOR SOME STRANGE REASON TO USE THIS, FOLLOW IT**
 
 ## Installation
 
@@ -67,6 +69,17 @@ In order to translate the reCaptcha widget you should create a global variable c
 ```
 window.recaptchaOptions = {
   lang: 'fr'
+}
+```
+
+**Not from original docs:**
+
+In order to load reCaptcha from recaptcha.net (for cases google.com is unavailable), add the following flag, just like in the language example.
+
+```
+window.recaptchaOptions = {
+  lang: 'fr',
+  useRecaptchaNet: true
 }
 ```
 
